@@ -1,0 +1,60 @@
+body{
+font-family: Arial;
+margin:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+background:#0d1b2a;
+color:white;
+padding:15px;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.hero{
+height:500px;
+background:url("bg.jpg");
+background-size:cover;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.hero button{
+padding:10px 20px;
+background:gold;
+border:none;
+cursor:pointer;
+}
+
+.stats{
+display:flex;
+justify-content:space-around;
+padding:40px;
+}
+
+.course{
+background:#eee;
+margin:20px;
+padding:20px;
+}
+
+#gallery img{
+width:300px;
+margin:10px;
+}
+
+footer{
+background:black;
+color:white;
+padding:20px;
+text-align:center;
+}
