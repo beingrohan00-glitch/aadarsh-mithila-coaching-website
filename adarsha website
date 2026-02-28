@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aadarsh Mithila Coaching Centre</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav>
+    <h2>Aadarsh Mithila Coaching Centre</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#director">Director</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <h1>Shape Your Future at</h1>
+  <h2>Aadarsh Mithila Coaching Centre</h2>
+  <p>Premier institute in Campus Chowk, Janakpur</p>
+  <button>Join Now</button>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div><h3>15+</h3><p>Years Experience</p></div>
+  <div><h3>10000+</h3><p>Students</p></div>
+  <div><h3>98%</h3><p>Success Rate</p></div>
+</section>
+
+<!-- DIRECTOR -->
+<section id="director">
+  <h2>Meet Our Director</h2>
+  <img src="director.jpg" class="director-img">
+  <h3>Your Director Name</h3>
+  <p>Expert educator with years of experience.</p>
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+<h2>Our Courses</h2>
+
+<div class="course">
+<h3>Class 6-10</h3>
+<p>All subjects with regular tests</p>
+</div>
+
+<div class="course">
+<h3>Class 11-12 Science</h3>
+<p>Physics, Chemistry, Biology, Maths</p>
+</div>
+
+<div class="course">
+<h3>SEE Preparation</h3>
+<p>Mock tests and preparation</p>
+</div>
+
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+<h2>Gallery</h2>
+
+<img src="img1.jpg">
+<img src="img2.jpg">
+<img src="img3.jpg">
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Us</h2>
+
+<p>Campus Chowk, Janakpur</p>
+
+<form>
+<input placeholder="Name">
+<input placeholder="Phone">
+<input placeholder="Email">
+<button>Submit</button>
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Aadarsh Mithila Coaching Centre</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
